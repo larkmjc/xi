@@ -30,16 +30,16 @@ struct xi_nub_ch;
 
 typedef enum
 {
-	xi_nub_success,
-	xi_nub_einval,
-	xi_nub_eexist,
-	xi_nub_eacces,
-	xi_nub_econnrefused,
-	xi_nub_eagain,
-	xi_nub_enodata,
-	xi_nub_enoent,
-	xi_nub_eio,
-	xi_nub_egeneric = 255
+    xi_nub_success,
+    xi_nub_einval,
+    xi_nub_eexist,
+    xi_nub_eacces,
+    xi_nub_econnrefused,
+    xi_nub_eagain,
+    xi_nub_enodata,
+    xi_nub_enoent,
+    xi_nub_eio,
+    xi_nub_egeneric = 255
 } xi_nub_error;
 
 typedef void(*xi_nub_accept_cb)(xi_nub_ch *ch, xi_nub_error err);
